@@ -74,7 +74,7 @@ def joga_o(pos):
     elif pos == 'c2':
         if c2 != ' ':
            tent_2 = input('Posição já escolhida. Escolha outra:')
-            joga_o(tent_2)
+           joga_o(tent_2)
         else:
             c2 = 'O'
             print(a1+'|'+a2+'|'+a3+
@@ -82,7 +82,7 @@ def joga_o(pos):
     elif pos == 'c3':
         if c3 != ' ':
            tent_2 = input('Posição já escolhida. Escolha outra:')
-            joga_o(tent_2)
+           joga_o(tent_2)
         else:
             c3 = 'O'
             print(a1+'|'+a2+'|'+a3+
