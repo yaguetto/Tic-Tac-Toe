@@ -13,9 +13,6 @@ def comecar_jogo():
     print("Quem joga com o marcador 'O' começa \nQue os jogos começem.")
 
 
-# In[437]:
-
-
 def joga_o(pos):
     global a1, a2, a3, b1, b2, b3, c1, c2, c3
     if pos == 'a1':
@@ -104,8 +101,6 @@ def joga_o(pos):
         tent_2 = input()
         joga_o(tent_2)
 
-
-# In[436]:
 
 
 def joga_x(pos):
@@ -197,8 +192,6 @@ def joga_x(pos):
         joga_x(tent_2)
 
 
-# In[ ]:
-
 
 def verif_ganhou():
     global a1, a2, a3, b1, b2, b3, c1, c2, c3, winner
@@ -221,9 +214,6 @@ def verif_ganhou():
             print('Acabou o jogo, o marcador %s ganhou' %c3)
             return True
         
-
-
-# In[542]:
 
 
 def tic_tac_fkn_toe():
