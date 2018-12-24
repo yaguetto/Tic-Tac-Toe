@@ -518,3 +518,6 @@ def tic_tac_fkn_toe():
     
     else:
         print("Foi bom enquanto durou...")
+
+if __name__ == '__main__':
+    tic_tac_fkn_toe()
