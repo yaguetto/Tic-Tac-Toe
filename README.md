@@ -1,0 +1,4 @@
+
+# Como rodar
+
+main.py
