@@ -1,4 +1,4 @@
 
 # Como rodar
 
-main.py
+python main.py
